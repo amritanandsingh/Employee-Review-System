@@ -1,35 +1,15 @@
-### Employee Review System
-Employee review system webapp is an online platform designed to assist companies in managing their employee performance evaluations. The system allows managers to conduct employee performance reviews, track progress, and provide feedback in a centralized location.
-
-### Problem Statement : 
- - Create an application that allows employees to submit feedback toward each other’s performance.
- 
-#### Technology Used:
- - Node Js
- - Java Script
- - MongoDB
- - EJS
- 
-
- ## Install
-
-To install all the dependences of the project, run the following command:
-
-    git clone https://github.com/shakti1590/employee-review-sys.git
-    npm install
-    npm start
+Performance Review Management System
+The Performance Review Management System is a web-based application that enables administrators and employees to manage performance reviews within an organization. The system allows administrators to add, remove, update, and view employees, as well as manage performance reviews. Employees can view performance reviews that require feedback and submit their feedback through the system.
 
 
-#### Source Code:
- - Link : https://github.com/shakti1590/employee-review-sys
-
-
-#### Deployment Link:
- - Link : https://employee-review-sys.vercel.app/
-
-
-
-<p align="center">
-  Show some :heart: by starring the repository.
-</p>
-
+Features
+Admin View
+Add, remove, update, and view employees.
+Add, update, and view performance reviews.
+Assign employees to participate in another employee's performance review.
+Employee View
+List of performance reviews requiring feedback.
+Submit feedback for performance reviews.
+Authentication
+Single login system for both admin and employees.
+Employees can register, but only admins can grant admin privileges.
